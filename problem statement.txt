@@ -1,0 +1,7 @@
+A worker is reading meters in an un-conventional manner in an infinite two-dimensional grid of houses.
+They begin by reading a meter at the house at their starting location, and then a dispatcher at meter shop calls them and tells theme where to move next. Moves are always exactly one house to the north (^), south (v), east (>), or west (<). After each move, they read another meter at the house at their new location.
+However, the dispatcher at the meter shop is having a bad day and is distracted, and so his directions are a little off, and the meter reader ends up visiting some houses more than once. How many houses have their meters read at least once?
+For example:
+•	">" reads meters at 2 houses: one at the starting location, and one to the east.
+•	"^>v<" reads meters at 4 houses in a square, including twice to the house at his starting/ending location.
+•	"^v^v^v" is not very productive and meters are read at only 2 houses.
